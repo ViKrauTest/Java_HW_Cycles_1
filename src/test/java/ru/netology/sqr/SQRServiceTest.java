@@ -15,10 +15,10 @@ public class SQRServiceTest {
             "50,99,0",
             "9802,200000,0"
     })
-    public void shouldCalcSquareNumberInRange (int lowerBound, int upperBound, int expected) {
+    public void shouldCalcSquareNumberInRange(int lowerBound, int upperBound, int expected) {
 
         SQRService service = new SQRService();
         int actual = service.squareNumberInRange(lowerBound, upperBound);
-        Assertions.assertEquals(actual,expected);
+        Assertions.assertEquals(actual, expected);
     }
 }

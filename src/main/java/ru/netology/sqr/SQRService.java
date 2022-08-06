@@ -2,7 +2,7 @@ package ru.netology.sqr;
 
 public class SQRService {
 
-    public int squareNumberInRange (int lowerBound, int upperBound) {
+    public int squareNumberInRange(int lowerBound, int upperBound) {
 
         int count = 0;
         for (int i = 10; i <= 99; i++) {
